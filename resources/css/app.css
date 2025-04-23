@@ -1,0 +1,166 @@
+header{
+    width:100%;
+    height:12%;
+    background-color: rgb(164, 227, 243);
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 24;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    text-align: center;
+    border: 2px solid Black;
+}
+
+.tab{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 42;
+    display: grid;
+    background-color: rgb(164, 227, 243);
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 0;
+}
+
+#detailButton{
+    background-color: #f5cdc4;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#detailButton:hover{
+    background-color: #f3b3a4;
+}
+
+#detailButtonDiv{
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.cardDes {
+    text-align: center;
+    border: 2px solid Black;
+    border-radius: 15px;
+    margin:1px;
+    margin-left:5%;
+    margin-right:5%;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    background-color: rgb(227, 243, 164);
+}
+
+.cards{
+    text-align: center;
+    border: 2px solid Black;
+}
+
+/* Change background color of buttons on hover */
+.tab a:hover {
+    background-color: rgb(91, 209, 238);
+}
+
+
+.database{
+    margin-top:0.5%;
+    background-color: #F3A4E3;
+    margin-left:10%;
+    margin-right:10%;
+    border-radius: 25px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding: 1%
+}
+
+.addButton{
+    font-weight: bold;
+    font-size: 42;
+    position: absolute;
+    top: 70%;
+    left: 85.75%;
+    background-color: #f7eae7;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+ul.pagination li {
+    display: inline-flex;
+    align-items: center;
+}
+
+ul.pagination li a {
+    padding: 0.5rem 0.75rem;
+    color: Black;
+    background-color: #fff;
+}
+
+ul.pagination li span, ul.pagination li a:hover {
+    padding: 0.5rem 0.75rem;
+    color: Black;
+    background-color: #DCA4F3;
+}
+
+.log{
+    border: solid black 1px;
+    background-color: #f5cdc4;
+    height: 25px;
+    width: 60px;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.logBody{
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.empInfoBack{
+    background-color: #F3A4E3;
+    width: 100%;
+    height: 83%;
+    display : flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.empInfoTitle{
+    background-color: rgb(230, 182, 219);
+}
+
+.empInfoCard{
+    background-color: white;
+    width:500px;
+    border: solid black 1px;
+    border-radius: 10px;
+    font-size: 24;
+    font-weight: bold;
+}
+
+.empCardInfo{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-size: 16;
+    font-weight: normal;
+}
+
+.empCardInform{
+    text-align: left;
+    padding-left: 25px;
+}
+
+.empCardInfoButtons{
+    justify-content: center;
+    text-align: center;
+}
